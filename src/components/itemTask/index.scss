@@ -1,0 +1,26 @@
+.task-item {
+    display: flex;
+}
+
+.icon {
+    &-edit {
+        color: rgb(74, 197, 74) !important;
+
+    }
+    &-cancel {
+        color: rgb(233, 79, 79) !important;
+    }
+}
+
+
+.content-icons {
+    min-width: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+    .anticon {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        color: #9c9595;
+    }
+}
